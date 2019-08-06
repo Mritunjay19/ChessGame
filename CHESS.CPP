@@ -1,4 +1,7 @@
-#include<iostream.h>
-class Chess{
-
+class Chess
+{
+public:int color;
+	int getColor(){
+		return color;	
+	}
 };

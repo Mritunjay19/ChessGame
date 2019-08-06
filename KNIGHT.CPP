@@ -1,2 +1,5 @@
-class Kinght:public Chess{
+class Knight:public Chess{
+public:
+Knight(int c){
+color=c;}
 };

@@ -1,3 +1,7 @@
-class Rook:public Chess{
 
+class Rook:public Chess{
+public:
+Rook(int c){
+color=c;
+}
 };
