@@ -1,13 +1,12 @@
 #include<iostream>
 #include<bits/stdc++.h>
-#include"CHESS.cpp"
-#include"KING.cpp"
-#include"QUEEN.cpp"
-#include"KNIGHT.cpp"
-#include"ROOK.cpp"
-#include"PAWN.cpp"
-#include"BISHOP.cpp"
-#include<conio.h>
+#include"CHESS.CPP"
+#include"KING.CPP"
+#include"QUEEN.CPP"
+#include"KNIGHT.CPP"
+#include"ROOK.CPP"
+#include"PAWN.CPP"
+#include"BISHOP.CPP"
 #include"PLACEPCS.CPP"
 #include<stdlib.h>
 #include"DISPLAYBOARD.CPP"
@@ -28,6 +27,5 @@ while(true){
 	system("CLS");
 	displayBoard(board);
 }
-getch();
 return 0;
 }
