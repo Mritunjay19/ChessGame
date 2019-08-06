@@ -1,0 +1,2 @@
+class Kinght:public Chess{
+};
