@@ -10,8 +10,4 @@ bool validateMove(Chess * board[8][8],int i,int j){
 
 return false;
 }
-
-void movePiece(Chess * board[8][8],int i,int j){
-}
-
 };
