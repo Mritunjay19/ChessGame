@@ -15,7 +15,10 @@ void pieceDisplay(int i){
 }
 
 void displayBoard(Chess * board[][8]){
+	cout<<"   ";
+	for(int i=0;i<8;i++)cout<<"  "<<i<<"     ";cout<<endl;
 	for(int i=0;i<8;i++){
+		cout<<i<<"  ";
 		for(int j=0;j<8;j++){
 			if(board[i][j]!=NULL){
 				if(board[i][j]->getColor()==1){
