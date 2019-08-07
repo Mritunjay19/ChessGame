@@ -2,7 +2,7 @@
 class Queen:public Chess{
 public:
 Queen(int c,int i,int j){
-color=c;
+color=c;p90
 index1=i;
 index2=j;
 setPieceType(5);

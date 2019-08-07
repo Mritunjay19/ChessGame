@@ -32,7 +32,7 @@ public:
         {
             return false;
         }
-        if (((i == poss1r) && (j == poss11c || j == poss12c)) || ((i == poss2r) && (j == poss21c || j == poss22c)) || ((i == poss3r) && (j == poss31c || j == poss32c)) || ((j == poss4r) && (i == poss41r || i == poss42r)))
+        if (((i == poss1r) && (j == poss11c || j == poss12c)) || ((i == poss2r) && (j == poss21c || j == poss22c)) || ((i == poss3r) && (j == poss31c || j == poss32c)) || ((j == poss4c) && (i == poss41r || i == poss42r)))
         {
             if (board[i][j] == NULL || board[i][j]->getColor() != color)
             {
