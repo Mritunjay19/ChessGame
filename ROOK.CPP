@@ -1,4 +1,3 @@
-
 class Rook:public Chess{
 public:
 Rook(int c,int i,int j){
