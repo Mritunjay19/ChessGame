@@ -1,3 +1,0 @@
-class Rook:public Chess{
-
-};
